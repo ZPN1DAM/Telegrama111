@@ -106,7 +106,7 @@
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
-            this.Text = "Telegrama zpn y vms";
+            this.Text = "Telegrama2 zpn y vms";
             this.ResumeLayout(false);
             this.PerformLayout();
 
