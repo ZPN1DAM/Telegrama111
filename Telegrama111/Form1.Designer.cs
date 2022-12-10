@@ -115,7 +115,7 @@
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Telegrama vms y zpn";
             this.ResumeLayout(false);
             this.PerformLayout();
 
