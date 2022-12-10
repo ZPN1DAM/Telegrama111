@@ -38,9 +38,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(344, 280);
+            this.button1.Location = new System.Drawing.Point(387, 350);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 59);
+            this.button1.Size = new System.Drawing.Size(142, 74);
             this.button1.TabIndex = 0;
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
@@ -48,25 +49,28 @@
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(150, 317);
+            this.txtPrecio.Location = new System.Drawing.Point(169, 396);
+            this.txtPrecio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(100, 22);
+            this.txtPrecio.Size = new System.Drawing.Size(112, 26);
             this.txtPrecio.TabIndex = 1;
             // 
             // txtTelegrama
             // 
-            this.txtTelegrama.Location = new System.Drawing.Point(96, 83);
+            this.txtTelegrama.Location = new System.Drawing.Point(108, 104);
+            this.txtTelegrama.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtTelegrama.Multiline = true;
             this.txtTelegrama.Name = "txtTelegrama";
-            this.txtTelegrama.Size = new System.Drawing.Size(341, 155);
+            this.txtTelegrama.Size = new System.Drawing.Size(383, 193);
             this.txtTelegrama.TabIndex = 2;
             // 
             // cbUrgente
             // 
             this.cbUrgente.AutoSize = true;
-            this.cbUrgente.Location = new System.Drawing.Point(96, 268);
+            this.cbUrgente.Location = new System.Drawing.Point(108, 335);
+            this.cbUrgente.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbUrgente.Name = "cbUrgente";
-            this.cbUrgente.Size = new System.Drawing.Size(77, 20);
+            this.cbUrgente.Size = new System.Drawing.Size(93, 24);
             this.cbUrgente.TabIndex = 3;
             this.cbUrgente.Text = "Urgente";
             this.cbUrgente.UseVisualStyleBackColor = true;
@@ -74,34 +78,35 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(93, 51);
+            this.label1.Location = new System.Drawing.Point(105, 64);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 16);
+            this.label1.Size = new System.Drawing.Size(48, 20);
             this.label1.TabIndex = 4;
             this.label1.Text = "Texto";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(82, 320);
+            this.label2.Location = new System.Drawing.Point(92, 400);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 16);
+            this.label2.Size = new System.Drawing.Size(51, 20);
             this.label2.TabIndex = 5;
             this.label2.Text = "Coste";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(537, 410);
+            this.ClientSize = new System.Drawing.Size(604, 512);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbUrgente);
             this.Controls.Add(this.txtTelegrama);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Telegrama zpn y vms";
             this.ResumeLayout(false);
             this.PerformLayout();
 
