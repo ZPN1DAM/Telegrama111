@@ -25,7 +25,7 @@ namespace Telegrama111
             double coste;
             int i = 0;
 
-            //Leo el telegrama
+            //Leo el telegrama a ver si funciona
             textoTelegrama = txtTelegrama.Text;
 
             // telegrama urgente?
